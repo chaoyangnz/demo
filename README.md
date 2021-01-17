@@ -1,4 +1,3 @@
-## Feature http-client documentation
+# Use Lombok with Micronaut @Value in constructor
 
-- [Micronaut Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
+If I don't use `id("io.micronaut.library") version "1.2.0"` plugin, then injection fails.

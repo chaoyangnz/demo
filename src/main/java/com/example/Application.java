@@ -1,10 +1,14 @@
 package com.example;
 
-import io.micronaut.runtime.Micronaut;
+import io.micronaut.context.ApplicationContext;
 
 public class Application {
 
     public static void main(String[] args) {
-        Micronaut.run(Application.class, args);
+        ApplicationContext context = ApplicationContext.run();
+        BeanWithConstructor beanWithConstructor = context.getBean(BeanWithConstructor.class);
+        beanWithConstructor.printThis();
+        BeanWithConstructorByLombok beanWithConstructorByLombok = context.getBean(BeanWithConstructorByLombok.class);
+        beanWithConstructorByLombok.printThis();
     }
 }

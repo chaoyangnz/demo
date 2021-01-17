@@ -1,3 +1,5 @@
 micronaut:
   application:
     name: demo
+a:
+  b: something
