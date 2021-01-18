@@ -13,10 +13,10 @@ repositories {
 
 dependencies {
     //Project Lombok
-    compileOnly 'org.projectlombok:lombok:1.18.8'
-    annotationProcessor 'org.projectlombok:lombok:1.18.8'
-    testCompileOnly 'org.projectlombok:lombok:1.18.8'
-    testAnnotationProcessor 'org.projectlombok:lombok:1.18.8'
+    compileOnly 'org.projectlombok:lombok:1.18.16'
+    annotationProcessor 'org.projectlombok:lombok:1.18.16'
+    testCompileOnly 'org.projectlombok:lombok:1.18.16'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
 
     // micronaut inject
     implementation("io.micronaut:micronaut-inject:2.2.3")
